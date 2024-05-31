@@ -63,7 +63,7 @@ red='\e[1;31m'
 green='\e[1;32m'
 NC='\e[0m'
 clear
-curl -sS https://raw.githubusercontent.com/apih46/testbot/main/resources/ascii-home
+curl -sS https://raw.githubusercontent.com/erlkim/hi/main/resources/ascii-home
 echo "Add Domain"
 echo "Progress..."
 sleep 2
