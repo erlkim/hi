@@ -65,7 +65,7 @@ exit 0
 fi
 
 ipes=$(curl -sS ipv4.icanhazip.com)
-surat=$(curl -sS https://raw.githubusercontent.com/erlkim/key/main/ip | grep -w $ipes | awk '{print $4}'  )
+surat=$(curl -sS https://raw.githubusercontent.com/erlkim/hi/main/authbot | grep -w $ipes | awk '{print $4}'  )
 if [[ "$surat" = "true" ]]; then
 echo -ne
 else
