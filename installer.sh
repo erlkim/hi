@@ -66,7 +66,7 @@ fi
 
 ipes=$(curl -sS ipv4.icanhazip.com)
 surat=$(curl -sS https://raw.githubusercontent.com/erlkim/key/main/ip | grep -w $ipes | awk '{print $4}'  )
-if [[ "$MYIP" = "$IZIN" ]]; then
+if [[ "$ipes" = "$surat" ]]; then
 echo -ne
 else
 red "You cant use this bot panel !"
