@@ -21,7 +21,7 @@ BURIQ () {
     rm -f /root/tmp
 }
 
-MYIP=$(curl -sS https://raw.githubusercontent.com/erlkim/key/main/sk)
+MYIP=$(curl -sS https://raw.githubusercontent.com/erlkim/key/main/ip)
 Name=$(curl -sS https://raw.githubusercontent.com/erlkim/key/main/ip | grep $MYIP | awk '{print $2}')
 echo $Name > /usr/local/etc/.$Name.ini
 CekOne=$(cat /usr/local/etc/.$Name.ini)
@@ -38,7 +38,7 @@ fi
 }
 
 PERMISSION () {
-    MYIP=$(curl -sS https://raw.githubusercontent.com/erlkim/key/main/sk)
+    MYIP=$(curl -sS https://raw.githubusercontent.com/erlkim/key/main/ip)
     IZIN=$(curl -sS https://raw.githubusercontent.com/erlkim/key/main/ip | awk '{print $4}' | grep $MYIP)
     if [ "$MYIP" = "$IZIN" ]; then
     Bloman
@@ -51,7 +51,7 @@ red='\e[1;31m'
 green='\e[1;32m'
 NC='\e[0m'
 clear
-curl -sS https://raw.githubusercontent.com/erlkim/ip/main/resources/ascii-home
+curl -sS https://raw.githubusercontent.com/erlkim/hi/main/resources/ascii-home
 echo "Add Domain"
 echo "Progress..."
 sleep 2
@@ -121,7 +121,7 @@ red='\e[1;31m'
 green='\e[1;32m'
 NC='\e[0m'
 clear
-curl -sS https://raw.githubusercontent.com/erlkim/ip/main/resources/ascii-home
+curl -sS https://raw.githubusercontent.com/erlkim/hi/main/resources/ascii-home
 echo "Add Domain"
 echo "Progress..."
 sleep 2
