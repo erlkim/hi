@@ -88,14 +88,14 @@ WG_RUNNING=$?
 
 # Tambahan
 
-wget -q -O /usr/bin/add-wg "https://raw.githubusercontent.com/apih46/testbot/main/wireguard/add-wg.sh" && chmod +x /usr/bin/add-wg
-wget -q -O /usr/bin/del-wg "https://raw.githubusercontent.com/apih46/testbot/main/wireguard/del-wg.sh" && chmod +x /usr/bin/del-wg
-wget -q -O /usr/bin/cek-wg "https://raw.githubusercontent.com/apih46/testbot/main/wireguard/cek-wg.sh" && chmod +x /usr/bin/cek-wg
-wget -q -O /usr/bin/renew-wg "https://raw.githubusercontent.com/apih46/testbot/main/wireguard/renew-wg.sh" && chmod +x /usr/bin/renew-wg
-wget -q -O /usr/bin/trial-wg "https://raw.githubusercontent.com/apih46/testbot/main/wireguard/trial-wg.sh" && chmod +x /usr/bin/trial-wg
-wget -q -O /usr/bin/port-wg "https://raw.githubusercontent.com/apih46/testbot/main/wireguard/port-wg.sh" && chmod +x /usr/bin/port-wg
+wget -q -O /usr/bin/add-wg "https://raw.githubusercontent.com/erlkim/hi/main/wireguard/add-wg.sh" && chmod +x /usr/bin/add-wg
+wget -q -O /usr/bin/del-wg "https://raw.githubusercontent.com/erlkim/hi/main/wireguard/del-wg.sh" && chmod +x /usr/bin/del-wg
+wget -q -O /usr/bin/cek-wg "https://raw.githubusercontent.com/erlkim/hi/main/wireguard/cek-wg.sh" && chmod +x /usr/bin/cek-wg
+wget -q -O /usr/bin/renew-wg "https://raw.githubusercontent.com/erlkim/hi/main/wireguard/renew-wg.sh" && chmod +x /usr/bin/renew-wg
+wget -q -O /usr/bin/trial-wg "https://raw.githubusercontent.com/erlkim/hi/main/wireguard/trial-wg.sh" && chmod +x /usr/bin/trial-wg
+wget -q -O /usr/bin/port-wg "https://raw.githubusercontent.com/erlkim/hi/main/wireguard/port-wg.sh" && chmod +x /usr/bin/port-wg
 
-wget -q -O /usr/bin/wg-menu "https://raw.githubusercontent.com/apih46/testbot/main/menu_all/wg-menu.sh" && chmod +x /usr/bin/wg-menu
+wget -q -O /usr/bin/wg-menu "https://raw.githubusercontent.com/erlkim/hi/main/menu_all/wg-menu.sh" && chmod +x /usr/bin/wg-menu
 
 sleep 1
 yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
