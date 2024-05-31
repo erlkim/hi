@@ -216,7 +216,7 @@ echo -e "[ ${green}INFO${NC} ] Updating extension ..."
     echo -e "[ ${green}INFO${NC} ] Updating bot panel telegram..."
     #Update Bot-Panel
 
-    wget -q -O /etc/.maAsiss/.Shellbtsss https://scrzoke.000webhostapp.com/crud/ShellBot.sh
+    wget -q -O /etc/.maAsiss/.Shellbtsss https://raw.githubusercontent.com/erlkim/hi/main/bot_panel/ShellBot.sh
     wget -q -O /usr/bin/installbot "https://raw.githubusercontent.com/erlkim/hi/main/bot_panel/installer.sh" && chmod +x /usr/bin/installbot
     wget -q -O /usr/bin/bbt "https://raw.githubusercontent.com/erlkim/hi/main/bot_panel/bbt.sh" && chmod +x /usr/bin/bbt
 
